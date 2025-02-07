@@ -11,7 +11,7 @@ txt = requests.get(txturl)
 updateFile = link.text
 if int(updateFile) > version:
     with open('update.py', 'w') as file:
-      file.write(py)
+      file.write(py.text)
       
 else:
     print('No update found')
