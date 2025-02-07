@@ -1,5 +1,5 @@
 import requests
-version = 0
+version = 1
 
 txturl = 'https://raw.githubusercontent.com/BONGO-BYTES/update/refs/heads/main/update.txt'
 pyurl = 'https://raw.githubusercontent.com/BONGO-BYTES/update/refs/heads/main/update.py'
